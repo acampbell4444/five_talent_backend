@@ -7,7 +7,7 @@ var cors = require('cors');
 
 // Mongoose connection with mongodb
 mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb://krunal1021:krunal1021@ds139322.mlab.com:39322/aufinancex')
+mongoose.connect('mongodb://guest:password@ds239117.mlab.com:39117/five_talent')
     .then(() => { // if all is ok we will be here
       console.log('Start');
     })
@@ -17,14 +17,14 @@ mongoose.connect('mongodb://krunal1021:krunal1021@ds139322.mlab.com:39322/aufina
     });
 
 // Required application specific custom router module
-var itemRouter = require('./src/routes/itemRoutes');
+var houseRouter = require('./src/routes/houseRoutes');
 
 // Use middlewares to set view engine and post json data to the server
 app.use(cors());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-app.use('/items', itemRouter);
+app.use('/houses', houseRouter);
 
 // Start the server
 app.listen(port, function(){
