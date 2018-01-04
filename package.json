@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KrunalLathiya/node-js-express-tutorial.git"
+    "url": "git+https://github.com/acampbell4444/fiveTalent.git"
+
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KrunalLathiya/node-js-express-tutorial/issues"
   },
-  "homepage": "https://github.com/KrunalLathiya/node-js-express-tutorial#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
