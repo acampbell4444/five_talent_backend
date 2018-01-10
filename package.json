@@ -1,7 +1,6 @@
 {
   "name": "expapp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
@@ -9,7 +8,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acampbell4444/fiveTalent.git"
-
   },
   "author": "",
   "dependencies": {
@@ -23,5 +21,11 @@
   "devDependencies": {
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/acampbell4444/fiveTalent/issues"
+  },
+  "homepage": "https://github.com/acampbell4444/fiveTalent#readme",
+  "license": "ISC",
+  "description": ""
 }
